@@ -52,7 +52,12 @@
           </li>
         </ul>
 
-        <form class="needs-validation w-100" novalidate>
+        <form
+          action="/"
+          method="POST"
+          class="needs-validation w-100"
+          novalidate
+        >
           <div class="mb-3 email-container">
             <label for="email-field" class="form-label">Email Address</label>
             <div class="input-group has-validation">
@@ -82,8 +87,8 @@
 
       <p class="mb-3">
         A confirmation email has been sent to
-        <strong>ash@loremcompany.com</strong>. Please open it and click the
-        button inside to confirm your subscription.
+        <strong class="email"></strong>. Please open it and click the button
+        inside to confirm your subscription.
       </p>
 
       <button id="dismiss" type="button" class="btn btn-dark">

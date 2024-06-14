@@ -14,6 +14,7 @@
           event.stopPropagation();
         } else {
           event.preventDefault();
+          document.querySelector(".email").innerHTML = form.elements[0].value;
           document.querySelector(".newsletter").classList.toggle("hide");
           document.querySelector(".success-container").classList.toggle("hide");
         }
