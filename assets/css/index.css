@@ -1,0 +1,42 @@
+body {
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: 400;
+  background: hsl(235, 18%, 26%);
+}
+
+.stay-updated {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.stay-updated h1 {
+  font-weight: 500;
+  font-size: 3.5rem;
+}
+
+.container {
+  max-width: 860px;
+  display: flex;
+  gap: 20px;
+  background: white;
+  border-radius: 12px;
+  padding: 40px;
+  padding-right: 20px;
+  margin-top: 40px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button.btn.btn-dark {
+  background-color: hsl(234, 29%, 20%);
+  padding: 15px;
+  font-size: 14px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
